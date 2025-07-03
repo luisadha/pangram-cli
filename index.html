@@ -1,0 +1,2 @@
+
+read pangram < <(curl -s https://pangram-api.vercel.app/ | jq -r .pangram); echo "$pangram"
